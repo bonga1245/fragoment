@@ -1,0 +1,99 @@
+.container {
+    width: 454px;
+    // height: 509px;
+    height: 91vh;
+    position: fixed;
+    top: 64px;
+    left: 73px;
+    background-color: #22323F;
+    overflow-y: auto;
+}
+
+
+
+.inputStyle {
+    color: #fff;
+    width: 421px;
+    height: 41px;
+    background-color: #22323F;
+    border-radius: 10px;
+    border-color: #fff;
+}
+
+.title {
+    font-size: 17px;
+    margin-top: 17px;
+}
+
+.field {
+    margin-top: 15px;
+}
+
+.datepicker {
+    width: 192px;
+    margin-top: 4px;
+    margin-bottom: -16px;
+    height: 60px;
+}
+
+.dateLabel {
+    margin-top: 1px;
+}
+
+.border {
+    border-radius: 20px !important;
+}
+
+.search {
+    width: 43px;
+    position: relative;
+    right: -387px;
+    font-size: 25px;
+    line-height: 40px;
+    cursor: pointer;
+    z-index: 1;
+    color: #ffff;
+    top: -38px;
+}
+
+::ng-deep .mat-mdc-form-field-has-icon-suffix .mat-mdc-text-field-wrapper {
+    background-color: transparent !important;
+    border: 1px solid #ffff;
+    border-radius: 10px;
+}
+
+.labelDate {
+    position: relative;
+    top: -8px;
+    line-height: 2;
+}
+
+::ng-deep .mat-mdc-form-field-icon-suffix {
+    margin-top: -20px;
+}
+
+::ng-deep .mdc-text-field--no-label:not(.mdc-text-field--outlined):not(.mdc-text-field--textarea) .mat-mdc-form-field-infix {
+    padding-top: 4px;
+}
+
+.innerContainer {
+    margin-left: 4px;
+}
+
+.typeAhead {
+    margin-top: -29px;
+    width: 397px;
+    height: 174px;
+    background-color: #1A2632;
+    margin-left: -20px;
+}
+
+::ng-deep .dropdown-menu {
+    width: 89%;
+    left: 5px !important;
+    background-color: #1A2632;
+}
+
+::ng-deep .dropdown-item {
+    color: #fff;
+}

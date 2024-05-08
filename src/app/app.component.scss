@@ -1,37 +1,57 @@
+.mainContainer {
+  height: 100vh;
+}
+
 .spacer {
-  padding-left: 1089px;
+  text-align: end;
   margin-top: 11px;
+  }
+
+  .profileIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    top: -4px;
   }
 
   .content {
     padding: 24px;
+    background-size: contain;
+    background-position: left;
+    background-image: url(../assets/world.png);
+    width: 1257px;
+    height: 572px;
+    top: 112px;
+    left: 365px;
   }
 
-  
+  .titlePicture {
+    padding-top: 13px;
+    width: 114px;
+    Top: 19px;
+  }
 
   .toolBarStyle {
-    background-color: #0c3a42;
+    background-color: #374C5E;
     position: relative;
     z-index: 5;
   }
 
   mat-sidenav-container {
     height: calc(100vh - 64px);
+    background-color: #213562;
   }
 
   .sidenav {
     width: 59px;
-    background-color: #0c3a42;
-  }
-
-  .header {
-    font-size: 18px;
-    margin-bottom: -13px;
-    margin-top: 9px;
-    text-transform: uppercase;
+    background-color: #374C5E;
   }
 
   .SubHeader {
-    font-size: 11px;
+    font-size: 14px;
     margin-left: 8px;
+    font-family: 'Montserrat';
+    width: 118.73px;
+
   }
